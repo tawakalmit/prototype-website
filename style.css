@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+body {
+	font-family: 'roboto';
+}
+
+header {
+	width: 100%;
+	height: 90px;
+	background-color: #ffffff;
+}
+
+nav {
+	position: fixed;
+	z-index: 999;
+	height: 80px;
+	background-color: #ffffff;
+	top: 0px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	box-shadow: 0px 3px 6px #C1C3C736;
+}
+
+nav ul {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 30%;
+}
+
+nav ul li a {
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	color: #19345E;
+	font-size: 13px;
+}
+
+nav ul li a:hover {
+	color: #F47522;
+}
+
+.menu-toggle {
+	display: none;
+	flex-direction: column;
+	height: 20px;
+	justify-content: space-between;
+	position: relative;
+	cursor: pointer;
+}
+
+.menu-toggle span {
+	display: block;
+	width: 28px;
+	height: 3px;
+	background-color: #2c3e50;
+	border-radius: 3px;
+}
+
+.jumbotron {
+	width: 100%;
+	height: 550px;
+	background-image: url('img/bg-img.png');
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	margin-top: -15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.jumbotron img {
+	width: 355px;
+	border-radius: 50%;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+.description {
+	margin-left: 10px;
+}
+
+.description h1 {
+	font-family: 'Roboto', sans-serif;
+	color: #19345E;
+	font-size: 85px;
+	margin: 20px;
+}
+
+.description p {
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	color: #19345E;
+}
+
+.description h2 {
+	font-size: 35px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	color: #19345E;
+}
+
+.button {
+	background-color: #F47522;
+	width: 150px;
+	height: 45px;
+	border-radius: 20px;
+	text-align: center;
+	line-height: 45px;
+	font-size: 16px;
+	font-family: 'roboto';
+	color: #ffffff;
+	margin-top: 40px;
+}
+
+.headline {
+	width: 100%;
+	height: 132px;
+	background-color: #F4F7FC;
+	line-height: 132px;
+}
+
+.headline h1 {
+	font-size: 40px;
+	color: #19345E;
+	margin-left: 125px;
+}
+
+.aboutme {
+	width: 80%;
+	margin: 50px auto;
+	display: flex;
+	justify-content: space-between;
+	height: auto;
+}
+
+.kiri {
+	width: 50%;
+	color: #19345E;
+	line-height: 20px;
+}
+
+.kiri ul li {
+	list-style-type: circle;
+}
+
+.kanan img:nth-child(1) {
+	position: relative;
+	left: 50px;
+	bottom: -30px;
+}
+
+#pp {
+	width: 250px;
+	border-radius: 20px;
+}
+
+.table {
+	width: 80%;
+	margin: auto;
+}
+
+.table h2 {
+	font-size: 18px;
+	color: #19345E;
+}
+
+table {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+td {
+	font-size: 14px;
+	width: 150px;
+	padding: 5px;
+	border: 1px solid #19345E;
+	color: #19345E;
+}
+
+.exp {
+	margin-bottom: 150px;
+}
+
+.exp-box {
+	width: 60%;
+	margin: 50px auto;
+	border-left:2px solid rgba(0, 0, 0, .2);
+	min-height: 500px;
+}
+
+.exp-box-2 {
+	line-height: 20px;
+	width: 90%;
+	margin: auto;
+	padding: 30px;
+	box-sizing: border-box;
+	box-shadow: 0 7px 15px rgba(0, 0, 0, .2);
+	border-radius: 20px;
+	margin-bottom: 60px;
+}
+
+.exp-box-2 h1 {
+	font-size: 17px;
+	color: #19345E ;
+}
+
+.exp-box-2 h2 {
+	font-size: 15px;
+	color: rgba(0, 0, 0, .3);
+}
+
+.exp-box-2 p {
+	font-size: 14px;
+	color: #19345E ;
+}
+
+.exp-box-2 ul li {
+	list-style-type: circle;
+}
+
+#doted {
+	position: relative;
+	left: 50px;
+	bottom: -30px;
+}
+
+#dot {
+	position: relative;
+	left: -11px;
+	top: 100px;
+}
+
+.daftar {
+	width: 80%;
+	margin:  auto;
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	box-shadow: 0 7px 15px rgba(0, 0, 0, .2);
+}
+
+.image-kiri img {
+	height: 600px;
+}
+
+.bagian-kanan {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	padding: 40px;
+	box-sizing: border-box;
+	height: auto;
+}
+
+.bagian-kanan h1 {
+	text-align: center;
+}
+
+.bagian-kanan span {
+	color: red;
+}
+
+input {
+	width: 100%;
+	height: 30px;
+	border-radius: 10px;
+	opacity: 0.3;
+}
+
+textarea {
+	width: 100%;
+}
+
+footer {
+	width: 100%;
+	height: 140px;
+	background-color: #19345E;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.gambar img {
+	width: 120px;
+}
+
+.socmed p {
+	color: white;
+	margin-bottom: 10px;
+}
+
+.copyright p {
+	color: white;
+}
+
+
+/*RESPOSIVE*/
+
+@media screen and (max-width: 768px) {
+	.jumbotron {
+		flex-wrap: wrap;
+		height: auto;
+		padding-bottom: 40px;
+	}
+
+	nav ul {
+		display: none;
+	}
+
+	.menu-toggle {
+		display: flex;
+	}
+
+	.menu-toggle span {
+		display: flex;
+	}
+
+	.aboutme {
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.kanan {
+		order: 1;
+		margin-bottom: 20px;
+	}
+
+	#doted {
+		display: none;
+	}
+
+	.kiri {
+		order: 2;
+	}
+
+	.daftar {
+		flex-wrap: wrap;
+	}
+
+	.bagian-kanan {
+		width: 100%;
+	}
+}
